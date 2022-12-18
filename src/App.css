@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  background: #dde5f4;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.container {
+  flex: 1;
+}
+form {
+  height: auto;
+  padding: 1.5rem 2rem;
+  background-color: #f1f7fe;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  padding: 1em;
+  background: hsl(233deg 36% 38%);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cancelButton {
+  background: #ff5b00;
+}
+input{
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+    border: 1px solid hsl(233deg 36% 38%);
+    border-radius: 0.5rem;
+    background: transparent;
+    outline: none;
+    margin-bottom: 1rem;
+}
